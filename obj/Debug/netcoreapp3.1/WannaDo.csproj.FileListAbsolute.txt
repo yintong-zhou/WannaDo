@@ -1,0 +1,13 @@
+C:\Users\Jurion\Desktop\WannaDo\bin\Debug\netcoreapp3.1\WannaDo.exe
+C:\Users\Jurion\Desktop\WannaDo\bin\Debug\netcoreapp3.1\WannaDo.deps.json
+C:\Users\Jurion\Desktop\WannaDo\bin\Debug\netcoreapp3.1\WannaDo.runtimeconfig.json
+C:\Users\Jurion\Desktop\WannaDo\bin\Debug\netcoreapp3.1\WannaDo.runtimeconfig.dev.json
+C:\Users\Jurion\Desktop\WannaDo\bin\Debug\netcoreapp3.1\WannaDo.dll
+C:\Users\Jurion\Desktop\WannaDo\bin\Debug\netcoreapp3.1\WannaDo.pdb
+C:\Users\Jurion\Desktop\WannaDo\obj\Debug\netcoreapp3.1\WannaDo.csprojAssemblyReference.cache
+C:\Users\Jurion\Desktop\WannaDo\obj\Debug\netcoreapp3.1\WannaDo.csproj.CoreCompileInputs.cache
+C:\Users\Jurion\Desktop\WannaDo\obj\Debug\netcoreapp3.1\WannaDo.AssemblyInfoInputs.cache
+C:\Users\Jurion\Desktop\WannaDo\obj\Debug\netcoreapp3.1\WannaDo.AssemblyInfo.cs
+C:\Users\Jurion\Desktop\WannaDo\obj\Debug\netcoreapp3.1\WannaDo.dll
+C:\Users\Jurion\Desktop\WannaDo\obj\Debug\netcoreapp3.1\WannaDo.pdb
+C:\Users\Jurion\Desktop\WannaDo\obj\Debug\netcoreapp3.1\WannaDo.genruntimeconfig.cache
