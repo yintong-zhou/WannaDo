@@ -8,7 +8,7 @@ namespace WannaDo
     class Cryptography
     {
         #region Encryption Manager
-        public byte[] AES_Encrypt(byte[] bytesToBeEncrypted, byte[] passwordBytes)
+        protected byte[] AES_Encrypt(byte[] bytesToBeEncrypted, byte[] passwordBytes)
         {
             byte[] encryptedBytes = null;
 
@@ -41,7 +41,7 @@ namespace WannaDo
             return encryptedBytes;
         }
 
-        public byte[] AES_Decrypt(byte[] bytesToBeDecrypted, byte[] passwordBytes)
+        protected byte[] AES_Decrypt(byte[] bytesToBeDecrypted, byte[] passwordBytes)
         {
             byte[] decryptedBytes = null;
 
@@ -94,7 +94,7 @@ namespace WannaDo
             File.WriteAllBytes(EncryptedPath, bytesEncrypted);
         }
 
-        public void DecryptFile(string inputPath, string outputPath)
+        private void DecryptFile(string inputPath, string outputPath)
         {
             string EncryptedPath = inputPath;
             string password = "Europa99!"; 
