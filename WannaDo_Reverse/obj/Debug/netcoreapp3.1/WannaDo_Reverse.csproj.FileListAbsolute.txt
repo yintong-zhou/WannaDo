@@ -1,0 +1,13 @@
+C:\Users\Yintong\Desktop\WannaDo\WannaDo_Reverse\bin\Debug\netcoreapp3.1\WannaDo_Reverse.exe
+C:\Users\Yintong\Desktop\WannaDo\WannaDo_Reverse\bin\Debug\netcoreapp3.1\WannaDo_Reverse.deps.json
+C:\Users\Yintong\Desktop\WannaDo\WannaDo_Reverse\bin\Debug\netcoreapp3.1\WannaDo_Reverse.runtimeconfig.json
+C:\Users\Yintong\Desktop\WannaDo\WannaDo_Reverse\bin\Debug\netcoreapp3.1\WannaDo_Reverse.runtimeconfig.dev.json
+C:\Users\Yintong\Desktop\WannaDo\WannaDo_Reverse\bin\Debug\netcoreapp3.1\WannaDo_Reverse.dll
+C:\Users\Yintong\Desktop\WannaDo\WannaDo_Reverse\bin\Debug\netcoreapp3.1\WannaDo_Reverse.pdb
+C:\Users\Yintong\Desktop\WannaDo\WannaDo_Reverse\obj\Debug\netcoreapp3.1\WannaDo_Reverse.csprojAssemblyReference.cache
+C:\Users\Yintong\Desktop\WannaDo\WannaDo_Reverse\obj\Debug\netcoreapp3.1\WannaDo_Reverse.csproj.CoreCompileInputs.cache
+C:\Users\Yintong\Desktop\WannaDo\WannaDo_Reverse\obj\Debug\netcoreapp3.1\WannaDo_Reverse.AssemblyInfoInputs.cache
+C:\Users\Yintong\Desktop\WannaDo\WannaDo_Reverse\obj\Debug\netcoreapp3.1\WannaDo_Reverse.AssemblyInfo.cs
+C:\Users\Yintong\Desktop\WannaDo\WannaDo_Reverse\obj\Debug\netcoreapp3.1\WannaDo_Reverse.dll
+C:\Users\Yintong\Desktop\WannaDo\WannaDo_Reverse\obj\Debug\netcoreapp3.1\WannaDo_Reverse.pdb
+C:\Users\Yintong\Desktop\WannaDo\WannaDo_Reverse\obj\Debug\netcoreapp3.1\WannaDo_Reverse.genruntimeconfig.cache
