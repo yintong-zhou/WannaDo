@@ -8,24 +8,27 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Jurion\\.nuget\\packages\\": {},
+    "C:\\Users\\Yintong\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jurion\\Desktop\\WannaDo\\WannaDo.csproj",
+      "projectUniqueName": "C:\\Users\\Yintong\\Desktop\\WannaDo\\WannaDo.csproj",
       "projectName": "WannaDo",
-      "projectPath": "C:\\Users\\Jurion\\Desktop\\WannaDo\\WannaDo.csproj",
-      "packagesPath": "C:\\Users\\Jurion\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jurion\\Desktop\\WannaDo\\obj\\",
+      "projectPath": "C:\\Users\\Yintong\\Desktop\\WannaDo\\WannaDo.csproj",
+      "packagesPath": "C:\\Users\\Yintong\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Yintong\\Desktop\\WannaDo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Jurion\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Yintong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

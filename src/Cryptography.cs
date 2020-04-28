@@ -79,7 +79,7 @@ namespace WannaDo
         public void EncryptFile(string inputPath, string outputPath)
         {
             string Path = inputPath;
-            string password = "Europa99!"; 
+            string password = "this_is_wanna_do_encryption_phrase_key"; 
 
             byte[] bytesToBeEncrypted = File.ReadAllBytes(Path);
             byte[] passwordBytes = Encoding.UTF8.GetBytes(password);
@@ -97,7 +97,7 @@ namespace WannaDo
         private void DecryptFile(string inputPath, string outputPath)
         {
             string EncryptedPath = inputPath;
-            string password = "Europa99!"; 
+            string password = "this_is_wanna_do_encryption_phrase_key"; 
 
             byte[] bytesToBeDecrypted = File.ReadAllBytes(EncryptedPath);
             byte[] passwordBytes = Encoding.UTF8.GetBytes(password);
