@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yintong\\Desktop\\WannaDo\\WannaDo.csproj": {}
+    "C:\\Users\\Yintong\\Desktop\\WannaDo\\WannaDo_Reverse\\WannaDo_Reverse.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yintong\\Desktop\\WannaDo\\WannaDo.csproj": {
+    "C:\\Users\\Yintong\\Desktop\\WannaDo\\WannaDo_Reverse\\WannaDo_Reverse.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yintong\\Desktop\\WannaDo\\WannaDo.csproj",
-        "projectName": "WannaDo",
-        "projectPath": "C:\\Users\\Yintong\\Desktop\\WannaDo\\WannaDo.csproj",
+        "projectUniqueName": "C:\\Users\\Yintong\\Desktop\\WannaDo\\WannaDo_Reverse\\WannaDo_Reverse.csproj",
+        "projectName": "WannaDo_Reverse",
+        "projectPath": "C:\\Users\\Yintong\\Desktop\\WannaDo\\WannaDo_Reverse\\WannaDo_Reverse.csproj",
         "packagesPath": "C:\\Users\\Yintong\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yintong\\Desktop\\WannaDo\\obj\\",
+        "outputPath": "C:\\Users\\Yintong\\Desktop\\WannaDo\\WannaDo_Reverse\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

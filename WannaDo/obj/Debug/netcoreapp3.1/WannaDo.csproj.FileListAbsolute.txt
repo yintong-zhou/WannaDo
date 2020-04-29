@@ -24,3 +24,16 @@ C:\Users\Yintong\Desktop\WannaDo\obj\Debug\netcoreapp3.1\WannaDo.AssemblyInfo.cs
 C:\Users\Yintong\Desktop\WannaDo\obj\Debug\netcoreapp3.1\WannaDo.dll
 C:\Users\Yintong\Desktop\WannaDo\obj\Debug\netcoreapp3.1\WannaDo.pdb
 C:\Users\Yintong\Desktop\WannaDo\obj\Debug\netcoreapp3.1\WannaDo.genruntimeconfig.cache
+C:\Users\Yintong\Desktop\WannaDo\WannaDo\bin\Debug\netcoreapp3.1\WannaDo.exe
+C:\Users\Yintong\Desktop\WannaDo\WannaDo\bin\Debug\netcoreapp3.1\WannaDo.deps.json
+C:\Users\Yintong\Desktop\WannaDo\WannaDo\bin\Debug\netcoreapp3.1\WannaDo.runtimeconfig.json
+C:\Users\Yintong\Desktop\WannaDo\WannaDo\bin\Debug\netcoreapp3.1\WannaDo.runtimeconfig.dev.json
+C:\Users\Yintong\Desktop\WannaDo\WannaDo\bin\Debug\netcoreapp3.1\WannaDo.dll
+C:\Users\Yintong\Desktop\WannaDo\WannaDo\bin\Debug\netcoreapp3.1\WannaDo.pdb
+C:\Users\Yintong\Desktop\WannaDo\WannaDo\obj\Debug\netcoreapp3.1\WannaDo.csprojAssemblyReference.cache
+C:\Users\Yintong\Desktop\WannaDo\WannaDo\obj\Debug\netcoreapp3.1\WannaDo.csproj.CoreCompileInputs.cache
+C:\Users\Yintong\Desktop\WannaDo\WannaDo\obj\Debug\netcoreapp3.1\WannaDo.AssemblyInfoInputs.cache
+C:\Users\Yintong\Desktop\WannaDo\WannaDo\obj\Debug\netcoreapp3.1\WannaDo.AssemblyInfo.cs
+C:\Users\Yintong\Desktop\WannaDo\WannaDo\obj\Debug\netcoreapp3.1\WannaDo.dll
+C:\Users\Yintong\Desktop\WannaDo\WannaDo\obj\Debug\netcoreapp3.1\WannaDo.pdb
+C:\Users\Yintong\Desktop\WannaDo\WannaDo\obj\Debug\netcoreapp3.1\WannaDo.genruntimeconfig.cache

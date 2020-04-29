@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yintong\\Desktop\\WannaDo\\WannaDo.csproj",
+      "projectUniqueName": "C:\\Users\\Yintong\\Desktop\\WannaDo\\WannaDo\\WannaDo.csproj",
       "projectName": "WannaDo",
-      "projectPath": "C:\\Users\\Yintong\\Desktop\\WannaDo\\WannaDo.csproj",
+      "projectPath": "C:\\Users\\Yintong\\Desktop\\WannaDo\\WannaDo\\WannaDo.csproj",
       "packagesPath": "C:\\Users\\Yintong\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yintong\\Desktop\\WannaDo\\obj\\",
+      "outputPath": "C:\\Users\\Yintong\\Desktop\\WannaDo\\WannaDo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

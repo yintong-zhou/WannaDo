@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "WannaDo_Reverse/1.0.0": {
+        "runtime": {
+          "WannaDo_Reverse.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WannaDo_Reverse/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
